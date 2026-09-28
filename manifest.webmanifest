@@ -1,0 +1,44 @@
+{
+  "id": "/rt-lab/",
+  "name": "RT LAB - معامل رامي مختار",
+  "short_name": "RT LAB",
+  "description": "نظام حجز وإدارة معامل رامي مختار — حجز · نتائج · تقارير · ولاء",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "any",
+  "background_color": "#0f0a0a",
+  "theme_color": "#8B0000",
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["medical", "health", "business"],
+  "prefer_related_applications": false,
+  "launch_handler": { "client_mode": "focus-existing" }
+}
